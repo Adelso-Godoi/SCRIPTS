@@ -1,0 +1,9 @@
+#!/bin/zsh
+
+
+   ASSUNTO="REINICIALIZAÇÃO DA MÁQUINA BS2"
+    CORPO="Atenção, sua máquina será reinicializada agora porque a atualização solicitou REBOOT. Verifique se tudo está OK.
+    $(date)"
+    DESTINO="adelso.godoi@bs2.com.br,adelsogodoi@outlook.com"
+    echo -e "Subject: $ASSUNTO\n\n$CORPO" | msmtp $DESTINO
+

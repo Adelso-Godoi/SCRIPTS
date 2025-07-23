@@ -1,2 +1,5 @@
 # SCRIPTS
-Repository for scripts to study
+
+Script in ShellScript for study. 
+
+
