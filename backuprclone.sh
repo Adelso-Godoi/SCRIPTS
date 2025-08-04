@@ -9,7 +9,7 @@ if [[ $STATUS -eq 0 ]]; then
     
 ASSUNTO="BACKUP RCLONE CONCLUÍDO"
 CORPO="Backup Rclone concluído com sucesso!! $(date)"
-DESTINO="adelso.godoi@bs2.com.br"
+DESTINO="exemplo@exemplo.com.br"
     echo -e "Subject: $ASSUNTO\n\n$CORPO" | msmtp $DESTINO 
 
 
@@ -18,7 +18,7 @@ else
 
 ASSUNTO="FALHA NO BACKUP RCLONE"
 CORPO="Backup Rclone deu erro em $(date)"
-DESTINO="adelso.godoi@bs2.com.br"
+DESTINO="exemplo@exemplo.com.br"
    echo -e "Subject: $ASSUNTO\n\n$CORPO" | msmtp $DESTINO
 
 fi	

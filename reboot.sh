@@ -16,7 +16,7 @@ Sua máquina será REINICIADA agora, porque a atualização solicitou REBOOT. Ve
 
 $(date)"
 
-    DESTINO="adelso.godoi@bs2.com.br,adelsogodoi@outlook.com"
+    DESTINO="exemplo@exemplo.com.br,exemplo2@exemplo2.com.br"
     echo -e "Subject: $ASSUNTO\n\n$CORPO" | msmtp $DESTINO
 
    sudo reboot

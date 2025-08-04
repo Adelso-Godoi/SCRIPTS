@@ -4,6 +4,6 @@
    ASSUNTO="REINICIALIZAÇÃO DA MÁQUINA BS2"
     CORPO="Atenção, sua máquina será reinicializada agora porque a atualização solicitou REBOOT. Verifique se tudo está OK.
     $(date)"
-    DESTINO="adelso.godoi@bs2.com.br,adelsogodoi@outlook.com"
+    DESTINO="email@exemplo.com.br,email2@exemplo2.com.br "
     echo -e "Subject: $ASSUNTO\n\n$CORPO" | msmtp $DESTINO
 
