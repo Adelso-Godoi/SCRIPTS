@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Definindo o endereço do destinatário
-DESTINATARIO="adelso.godoi@bs2.com.br"
+DESTINATARIO="email@exemplo.com.br"
 
 # Definindo o assunto e o corpo do e-mail
 ASSUNTO="Teste de envio com o echo no script"
